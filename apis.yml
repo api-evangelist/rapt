@@ -1,4 +1,16 @@
 aid: rapt
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rapt.png
 name: Rapt
 description: Rapt is a company surfaced as a portfolio company of accel and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -15,6 +27,18 @@ modified: '2026-07-17'
 tags:
 - Company
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: >-
+    Probed candidate identity rapt.ai (Rapt.AI, GPU/AI-accelerator
+    optimization; founder Anil Ravindranath; investor named on site is
+    HalfCourt Capital, Accel not confirmed). No public API, developer docs,
+    SDKs, or /.well-known/ surface (security.txt 404, docs.rapt.ai NXDOMAIN,
+    /developers 404). Identity match to Accel portfolio unconfirmed; nothing
+    added to avoid fabrication.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
